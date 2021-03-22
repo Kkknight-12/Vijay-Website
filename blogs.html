@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./utilities.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Blogs</title>
+  </head>
+  <body id="blog">
+    <header class="hero blog">
+      <div id="navbar" class="navbar">
+        <h1 class="logo"><strong>Vijay</strong> Chouhan</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="blogs.html">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1>Blogs</h1>
+        <p>We Provide World Class Financial Assistance</p>
+        <a href="#about" class="btn read-more" id="read-more"
+          ><i class="fas fa-chevron-right"></i>Read More</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <article id="blog" class="flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="./image/home/blog1.jpeg" alt="#" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 blog1">
+              <h2>Blog Post One</h2>
+              <p class="meta">
+                <i class="fas fa-user"></i>Posted by
+                <strong>Jaiti Datta</strong> | 23 March 2020
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis fuga laborum impedit dolorem dolorum reiciendis at
+                veritatis vitae tenetur itaque!
+              </p>
+              <a href="#" class="btn btn-outline">
+                <i class="fas fa-chevron-right"></i>
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article id="blog" class="flex-columns">
+        <div class="row b">
+          <div class="column">
+            <div class="column-1">
+              <img src="./image/home/blog2.jpeg" alt="#" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 blog2">
+              <h2>Blog Post Two</h2>
+              <p class="meta">
+                <i class="fas fa-user"></i>Posted by
+                <strong>Tasneem Husain</strong> | 23 March 2021
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis fuga laborum impedit dolorem dolorum reiciendis at
+                veritatis vitae tenetur itaque!
+              </p>
+              <a href="#" class="btn btn-outline">
+                <i class="fas fa-chevron-right"></i>
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- modal -->
+    <div class="modal" id="modal">
+      <div class="modal-backdrop"></div>
+
+      <div class="modal-body">
+        <button class="modal-close" id="close">close</button>
+        <h2>We....</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quo
+          voluptate deleniti unde accusamus omnis temporibus laboriosam,
+          quibusdam eligendi ullam, laudantium explicabo, numquam expedita eaque
+          distinctio labore mollitia! Facere, veniam, officia corporis
+          praesentium magnam, iure odio consequuntur dignissimos qui eligendi
+          pariatur perferendis natus! Officia distinctio culpa odit minus cumque
+          ipsam harum voluptas voluptatem. Quos quis laborum
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p>Copyright &copy; 2020 -Vijay Chouhan</p>
+    </footer>
+  </body>
+</html>
